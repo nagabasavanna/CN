@@ -1,0 +1,9 @@
+[root@localhost ~]# ns lab2.tcl 
+[root@localhost ~]# awk -f lab2.awk lab2.tr
+
+
+
+[root@localhost ~]# ns lab3.tcl 
+[root@localhost ~]# awk -f lab3.awk file1.tr>tcp1 
+ [root@localhost ~]# awk -f lab3.awk file2.tr>tcp2 
+[root@localhost ~]# xgraph -x"time"-y"convalue"tcp1 tcp2
